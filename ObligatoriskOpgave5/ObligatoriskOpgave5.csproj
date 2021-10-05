@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="opgave1">
+      <HintPath>..\..\ObligatoriskOpgave4\ObligatoriskOpgave4\dll\opgave1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
