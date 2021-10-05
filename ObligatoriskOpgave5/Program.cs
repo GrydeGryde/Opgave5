@@ -42,8 +42,7 @@ namespace ObligatoriskOpgave5
                     reader.ReadLine();
                     foreach (FootballPlayer player in Players)
                     {
-                        writer.WriteLine(
-                            $"Player ID:{player.ID} - Player Name: {player.Name} - Player Price: {player.Price} - Player Shirt Number: {player.ShirtNumber}");
+                        writer.WriteLine(JsonSerializer.Serialize(player));
                     }
                 }
 
